@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: Dependency Analysis and Plan Obfuscator
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Ayman
+    family-names: El-Sayed
+    email: aelsaye6@gmu.edu
+    affiliation: George Mason University
+abstract: >-
+  Classical task planning has its application in autonomous
+  systems on deciding the actions a robot should take to
+  achieve a goal. Given a fully specified domain, problem,
+  and goal, the agent can determine what to do based on the
+  solver used. However, commonly used solvers are prone to
+  producing plans that reveal intent to a passing observer.
+  This is a concern in multi-agent settings that handle
+  sensitive information, such as hospitals, where staff must
+  respect their patients' privacy. This project develops two
+  complementary capabilities: (1) dependency analysis, which
+  identifies which actions have casual links, and (2) plan
+  obfuscation, which restructures or augments plans to
+  better hide goal-critical actions from an observer. These
+  capabilities are achieved using the technical stack of
+  Python scripting with the Unified Planning and Fast
+  Downward libraries.
